@@ -15,21 +15,21 @@ function Feedback() {
           <div className="box">
             <img src={mark} alt="mark" />
             <p>Impressive service! My clothes have never looked better. The attention to detail and quality of cleaning are unmatched. Highly satisfied!</p>
-            <img src={stars} style={{width:120, marginLeft: '80px'}} alt="stars" />
+            <img src={stars} style={{width:120, marginLeft: '90px'}} alt="stars" />
             <p>Client 1</p>
           </div>
           <div className="box">
             <img src={mark} alt="mark" />
             <p>Exceptional laundry experience! The staff is professional, and my garments always come back fresh
 and perfectly pressed. This laundry business is my go-to for all my clothing care needs.</p>
-            <img src={stars} style={{width:120, marginLeft: '80px', marginTop: '-0px'}} alt="stars" />
+            <img src={stars} style={{width:120, marginLeft: '90px', marginTop: '-0px'}} alt="stars" />
             <p>Client 2</p>
           </div>
           <div className="box">
             <img src={mark} alt="mark" />
             <p>Outstanding results! Stains magically disappear, and my clothes smell amazing after each
 wash. The convenience and reliability of this laundry service are second to none. Highly impressed!</p>
-            <img src={stars} style={{width:120, marginLeft: '80px', marginTop: '-20px'}} alt="stars" />
+            <img src={stars} style={{width:120, marginLeft: '90px', marginTop: '0px'}} alt="stars" />
             <p>Client 3</p>
           </div>
         </div>

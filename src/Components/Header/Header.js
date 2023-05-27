@@ -16,7 +16,7 @@ function Header() {
       <div className="menu-container" style={{WebkitBorderBottomLeftRadius: 40, marginTop: '-25px'}}>
         <h3 className="menu-item" style={{marginRight: '50px', marginLeft: '30px', cursor: 'pointer'}} onClick={() => navigate('/')}>HOME</h3>
         <h3 className="menu-item" style={{marginRight: '50px', cursor: 'pointer'}} onClick={() => navigate('/')}>ABOUTUS</h3>
-        <h3 className="menu-item" style={{marginRight: '50px', cursor: 'pointer'}} onClick={() => navigate('/')}>SERVICE</h3>
+        <h3 className="menu-item" style={{marginRight: '50px', cursor: 'pointer'}} onClick={() => navigate('/service')}>SERVICE</h3>
         <h3 className="menu-item" style={{marginRight: '50px', cursor: 'pointer'}} onClick={() => navigate('/feedback')}>FEEDBACK</h3>
         <div className="search-line-container" style={{marginRight: '30px'}}>
           <img src={search} className="search-icon" alt="search" />

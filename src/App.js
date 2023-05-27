@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Feedback from './Screens/Feedback/Feedback';
 import Home from "./Screens/Home/Home";
+import Service from './Screens/Service/Service';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/feedback" element={<Feedback />} />
+          <Route path="/service" element={<Service />} />
         </Routes>
       </Router>
   );
