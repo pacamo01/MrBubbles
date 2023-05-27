@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Holtwood One SC';
+  src: url('../../Assets/HoltwoodOneSC-Regular.ttf') format('truetype');
+}
+
 .contact-container {
     background-image: url('../../Assets/background2.png');
     background-size: cover;
@@ -19,3 +24,23 @@
     align-items: center;
   }
   
+  .contact-logo-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 30%;
+  }
+  
+  .contact-logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+  }
+  
+  .contact-heading {
+    color: #09606c;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Holtwood One SC', sans-serif;
+    margin-left: 10px;
+    margin-right: -50px;
+  }
