@@ -29,7 +29,7 @@ and perfectly pressed. This laundry business is my go-to for all my clothing car
             <img src={mark} alt="mark" />
             <p>Outstanding results! Stains magically disappear, and my clothes smell amazing after each
 wash. The convenience and reliability of this laundry service are second to none. Highly impressed!</p>
-            <img src={stars} style={{width:120, marginLeft: '90px', marginTop: '0px'}} alt="stars" />
+            <img src={stars} style={{width:120, marginLeft: '90px', marginTop: '-20px'}} alt="stars" />
             <p>Client 3</p>
           </div>
         </div>

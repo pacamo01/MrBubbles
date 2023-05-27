@@ -47,6 +47,9 @@
     margin-top: 30px;
   }
   
+  .menu-item.active {
+    color: #09606c;
+  }
   
   .search-line-container {
     display: flex;
@@ -64,4 +67,10 @@
     height: 10px;
     width: 150px;
   }
+
+  .contact-button span {
+    font-family: 'Holtwood One SC', sans-serif;
+  }
+  
+
   
