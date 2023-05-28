@@ -51,7 +51,7 @@ function Header() {
             </button>
           </div>
         )}
-        <h3 className={`menu-item ${activeNavItem === '/service' ? 'active' : ''}`} style={{marginRight: '50px', cursor: 'pointer'}} onClick={() => navigate('/service')}>SERVICE</h3>
+        <h3 className={`menu-item ${activeNavItem === '/service' || activeNavItem === '/service1' || activeNavItem === '/service2' || activeNavItem === '/service3'? 'active' : ''}`} style={{marginRight: '50px', cursor: 'pointer'}} onClick={() => navigate('/service')}>SERVICE</h3>
         <h3 className={`menu-item ${activeNavItem === '/feedback' ? 'active' : ''}`} style={{marginRight: '50px', cursor: 'pointer'}} onClick={() => navigate('/feedback')}>FEEDBACK</h3>
         <div className="search-line-container" style={{marginRight: '30px'}}>
           <img src={search} className="search-icon" alt="search" />

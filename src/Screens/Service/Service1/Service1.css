@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Holtwood One SC';
+    src: url('../../../Assets/HoltwoodOneSC-Regular.ttf') format('truetype');
+  }
+
+.service1-container {
+    background-image: url('../../../Assets/background2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    margin-top: 300px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 520px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .what {
+    color: #0D98BA;
+    font-size: 50px;
+    margin-bottom: -70px;
+    margin-top: -10px;
+    font-size: 70px;
+    -webkit-text-stroke: 1px white;
+  }
+  
+  .s1box-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 25px;
+  }
+  
+  .s1box {
+    width: 300px;
+    height: 410px;
+    background-color: #09606c;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .s1box img {
+    width: 235px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .s1box p {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+  }
+
+  .titles1{
+    font-family: 'Holtwood One SC', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: -30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: lighter;
+  }
