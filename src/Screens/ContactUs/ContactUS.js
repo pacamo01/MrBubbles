@@ -13,8 +13,8 @@ function ContactUs() {
                   <img src={logo} className="logo" alt="logo" />
                   <h2 className="heading">Mr. Bubbles</h2>
                 </div>
-            <h1 style={{marginTop:'120px'}}>Welcome to the Plain Page</h1>
-            <p>This is a plain page component.</p>
+            <h1 style={{marginTop:'120px'}}>Contact hehe</h1>
+            <p>Sketit.</p>
           </div>
       </div>
     </div>
